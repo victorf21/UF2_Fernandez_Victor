@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="CSS/style.css"> 
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+		<title>Restaurant</title>
+	</head>
+	<body>
+		<section>
+			<h3>Galeria d'imatges</h3>
+			<div class="gallery">
+				<div class="image-container">
+					<img src="IMAGES/plat1.jpg" alt="Imatge plat de verdures">
+				</div>
+				<div class="image-container">
+					<img src="IMAGES/plat2.jpg" alt="Imatge plat despaguettis">
+				</div>
+				<div class="image-container">
+					<img src="IMAGES/plat3.jpg" alt="Imatge plat de salmó amb verdures">
+				</div>
+			</div>
+		</section>
+		<section>
+			<h3>Imatge responsiva</h3>
+			<div class="responsive-image">
+				<picture>
+					<source media="(min-width: 1200px)" srcset="IMAGES/img_responsive.webp">
+					<!-- Versió per a pantalla de 768px -->
+					<source media="(min-width: 768px)" srcset="IMAGES/img_responsive_768px.webp">
+					<!-- Versió per a pantalla de 576px -->
+					<source media="(min-width: 576px)" srcset="IMAGES/img_responsive_576px.webp">
+					<img src="IMAGES/img_responsive.webp" alt="imatge responsiva en format webp">
+				</picture>
+			</div>
+		</section>
+
+		<section>
+			<h3>CSS Animation</h3>
+			<div class="animacions">
+			</div>
+			<div class="css_div">
+				<p>Capa</p>
+			</div>
+		</section>
+
+		<section>
+			<h3>Video</h3>
+			<video id="video" src="VIDEOS/video.mov" autoplay></video>
+			<div class="video-controls">
+				<span id="play-btn" class="material-symbols-outlined">play_arrow</span>
+				<span id="pause-btn" class="material-symbols-outlined">pause</span>
+			</div>
+		</section>
+		<script src="script/script.js"></script>
+	</body>
+</html>
