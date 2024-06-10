@@ -1,0 +1,80 @@
+.gallery{
+    display: flex;
+    gap:20px;
+}
+
+.image-container{
+    width: 400px;
+}
+
+.image-container img{
+    width: 200px;
+    height: 133px;
+}
+
+.responsive-image img {
+    width: 100%;
+    height: auto;
+}
+
+.css_div{
+    position: relative;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    background-color:orange;
+    animation: animacion 15s;
+}
+
+
+@keyframes animacion {
+    0% {
+        background-color: orange;
+        height: 50px;
+        width: 50px;
+    }
+    25% {
+        background-color: #ffff54;
+        
+    }
+    50% {
+        background-color: #2202f5;
+        
+    }
+    75% {
+        background-color: #75fb53;
+    }
+    100% {
+        background-color: orange;
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+    }
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    font-size: 24px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    font-size: 24px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.video-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
